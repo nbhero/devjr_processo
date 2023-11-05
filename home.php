@@ -12,7 +12,7 @@
 	<title>Magazine Luiza</title>
 </head>
 <body>
-	<h1>Bem-vindo! <?php echo $_SESSION['usuario']?></h1>
+	<h1>Bem vindo ao Magalu. <?php echo $_SESSION['usuario']?></h1>
 	<p><a href="./config/logout.php">Sair</a></p>
 	
 </body>

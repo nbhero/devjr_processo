@@ -63,40 +63,10 @@ body{
 	border: 1px solid #3949AB;
 	transition: .5s;
 }
-.login_form .cadastrar{
-	margin: 10px 0 30px 0;
-	height: 45px;
-	width: 365px;
-	font-size: 20px;
-	color: var(--form-border-color);
-	outline: none;
-	cursor: pointer;
-	font-weight: bold;
-	background: #ccc;
-	border-radius: 3px;
-	border: 1px solid #3949AB;
-	transition: .5s;
-}
 .login_form .entrar:hover{
 	color: white;
 	background: var(--button-background-color);
 }
-.login_form .cadastrar:hover{
-	color: white;
-	background: var(--button-background-color);
-}
-.login_form #user_error,
-.login_form #pass_error{
-	margin-top: 5px;
-	width: 345px;
-	font-size: 18px;
-	color: #FF9000;
-	background: #FFD289;
-	text-align: center;
-	padding: 5px 8px;
-	border-radius: 3px;
-	border: 1px solid #FF9000;
-	display: none;
-}
+
 
 

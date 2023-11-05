@@ -49,15 +49,11 @@
 <body>
 	<div class="container">
 		<h1 class="label">Magalu</h1>
-		<form class="login_form" action="" method="post" name="form" onsubmit="return validated()">
+		<form class="login_form" action="" method="post" name="form">
 			<div class="font">Usuário</div>
 			<input autocomplete="off" type="text" name="user">
-			<span id="user_error">O usuário está incorreto!</span>
-			<!-- <span class="blank_user">Preencha seu usuário!</span> -->
 			<div class="font">Senha</div>
 			<input type="password" name="password">
-			<span id="pass_error">A senha está incorreta!</span>
-			<!-- <span class="blank_pass">Preencha seu usuário!</span> -->
 			<button type="submit" name="entrar" class="entrar">Entrar</button>
 		</form>
 	</div>

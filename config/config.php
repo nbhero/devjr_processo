@@ -1,16 +1,13 @@
 <?php
-    $dbHost = 'Localhost';
-    $dbUsername = 'root';
-    $dbPassword = '';
-    $dbName = 'banco';
-    
-    $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+    $bd_user = 'root';
+    $bd_senha = '';
+    $database = 'banco';
+    $host = 'localhost';
 
-    // if ($conexao->connect_errno){
-    //     echo "Erro!";
-    // }
-    // else{
-    //     echo "Conexão efetuada com sucesso!";
-    // }
+    $mysqli = new mysqli($host, $bd_user, $bd_senha, $database);
+
+    if($mysqli -> error) {
+        die("Falha ao conectar ao banco de dados: " . $mysqli -> error);
+    }
 
 ?>

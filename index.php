@@ -4,10 +4,10 @@
 
 	if(isset($_POST['user']) || isset($_POST['password'])){
 		if(strlen($_POST['user']) == 0){
-			echo "Preencha seu usuário!";
+			echo '<script>alert("Preencha seu usuário!")</script>';
 		}
 		else if(strlen($_POST['password']) == 0){
-			echo "Preencha sua senha!";
+			echo '<script>alert("Preencha sua senha!")</script>';
 		}
 		else {
 			# Limpando os campos de usuário e senha para trazer mais segurança durante a consulta no banco de dados.
@@ -29,7 +29,7 @@
 				header("Location: home.php");
 			}
 			else {
-				echo "Falha ao logar! Usuário ou senha incorretos.";
+				echo '<script>alert("Falha ao logar! Usuário ou senha incorretos.")</script>';
 			}
 		}
 	}
